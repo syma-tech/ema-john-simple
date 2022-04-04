@@ -1,0 +1,41 @@
+.header {
+    text-align: center;
+    background-color: #ffe294;
+}
+.header .logo{
+    height: 90px;
+}
+.header nav{
+    background-color: #000;
+}
+.header nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+    transition: all linear 0.2s;
+}
+.header nav a:hover{
+    background-color: #acacac;
+}
+.header .search{
+    background-color: #2b2b2b;
+}
+.header .search .search-input{
+    width: 70%;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.header .search .cart-icon{
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+}
